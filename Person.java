@@ -9,6 +9,15 @@ public class Person {
         this.address = address;
     }
 
+    @Override
+    public String toString() {
+        return "Person {" +
+                "name: '" + getName() + '\'' +
+                ",phone: '" + getPhone() + '\'' +
+                ",address: '" + getAddress() + '\'' +
+                "}";
+    }
+
     public String getName() {
         return name;
     }
